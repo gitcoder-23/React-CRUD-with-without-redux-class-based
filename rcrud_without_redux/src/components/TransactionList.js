@@ -45,7 +45,7 @@ class TransactionList extends Component {
         <hr />
         <table>
           <tbody>
-            {this.state.list.reverse().map((item, index) => {
+            {this.state.list.map((item, index) => {
               return (
                 <tr key={index}>
                   <td>{index + 1}</td>
